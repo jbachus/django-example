@@ -1,0 +1,6 @@
+.git
+.gitignore
+django-postgres/
+README.md
+Dockerfile
+docker-compose.yml
