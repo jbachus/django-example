@@ -13,3 +13,10 @@ docker-compose build
 docker-compose up -d
 ```
 Give it ~15 seconds to start, then open http://localhost:8000 in your browser.
+
+### Cleanup: ###
+`docker-compose down`
+
+#### Notes: ####
+This is just a proof of concept and stores the postgresql data files in your django-postgres folder.  Edit the docker-compose.yml to put it somewhere more permanent if you want to persist the data.
+
