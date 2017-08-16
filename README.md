@@ -12,3 +12,4 @@ cd django-example
 docker-compose build
 docker-compose up -d
 ```
+Give it ~15 seconds to start, then open http://localhost:8000 in your browser.
