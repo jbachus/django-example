@@ -1,7 +1,7 @@
 #!/usr/bin/dumb-init /bin/ash
 
-#Give DBs 5 seconds to start before running migrations
-sleep 5
+#Give DB/redis 15 seconds to start before running migrations
+sleep 15
 
 #Run DB migrations
 python3 manage.py migrate

@@ -3,7 +3,7 @@ version: '2'
 services:
   postgres:
     restart: always
-    image: postgres:9.6-alpine
+    image: healthcheck/postgres:alpine 
     environment:
       POSTGRES_PASSWORD: WSPdBKxje8
     volumes:
